@@ -195,13 +195,13 @@ body, html {
 
     text-decoration: none;
     padding: 5px 10px;
-    /*border: solid black 1px;
-    border-radius: 5px;
-    background-color: #ad5330;*/
+}
+
+#rct__footer{
+    background-color: #ad5330;
 }
 
 .rct__footer {
-	background-color: #ad5330;
 	position: absolute;
 	bottom: 0;
 	right: 0;
@@ -237,17 +237,14 @@ span {
     position: absolute;
     left: 82%;
     top: 50%;
-    /*margin-left: 5%;*/
     font-size: 30px;
     padding: 7px 14px;
     font-weight: bold;
 
-    /*background-color: #ad5330;*/
+
     color: #000;
     text-align: center;
 
-    /*border: 1px solid black;
-    border-radius: 5px;*/
 }
 
 span:before {
