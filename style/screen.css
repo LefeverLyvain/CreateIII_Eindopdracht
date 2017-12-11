@@ -1,0 +1,625 @@
+body, html {
+    font-family: Actor, sans-serif;
+    font-size: 16px;
+
+    background: url("../media/background.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*About Page*/
+.div__textballoon__about {
+    position: absolute;
+    left: 38%;
+    top: 10%;
+}
+
+
+.txt__about {
+    font-size: 20px;
+    position: absolute;
+    display: inline-block;
+    left: 22%;
+    right: 10%;
+    top: 20%;
+}
+
+.img__logo {
+    position: absolute;
+    left: 22%;
+    top: 65%;
+}
+
+/*Contact Page*/
+.form__textballoon__contact {
+    position: absolute;
+    left: 38%;
+    top: 10%;
+}
+
+.h1__textballoon {
+    position: absolute;
+    left: 22%;
+    top: 5%;
+    right: 12%;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.txt__contact {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.item__contact__name {
+    position: absolute;
+    display: inline-block;
+    left: 22%;
+    top: 20%;
+}
+
+.item__contact__email {
+    position: absolute;
+    display: inline-block;
+    left: 22%;
+    top: 35%;
+}
+
+.item__contact__message {
+    position: absolute;
+    display: inline-block;
+    left: 22%;
+    top: 50%;
+}
+
+.input__contact {
+    width: 400px;
+    text-decoration: none;
+    border: 1px solid #a0a0a0;
+    border-radius: 2px;
+    padding: 4px;
+}
+
+.btn__submit {
+    position: absolute;
+    left: 22%;
+    top: 82%;
+
+    font-family: "Shadows Into Light", sans-serif;
+    font-size: 24px;
+    color: #fff;
+
+    text-decoration: none;
+    padding: 3px 55px;
+    border: solid black 1px;
+    border-radius: 5px;
+    background-color: #ad5330;
+}
+
+/*Index Page*/
+.img__chucknorris__pic {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.img__textballoon__pic {
+	/*position: absolute;
+	left: 40%;
+	top: 15%;*/
+}
+
+.div__textballoon{
+	position: absolute;
+	left: 40%;
+	top: 15%;
+}
+
+.div__textballoon__superduperdupergrote{
+    position: absolute;
+    left: 12%;
+    top: 15%;
+    right: 12%;
+    font-size: 16px;
+}
+
+.div__textballoon__superdupergrote{
+    position: absolute;
+    left: 12%;
+    top: 15%;
+    right: 12%;
+    font-size: 18px;
+}
+.div__textballoon__supergrote{
+    position: absolute;
+    left: 12%;
+    top: 15%;
+    right: 12%;
+	font-size: 20px;
+}
+.div__textballoon__grote{
+    position: absolute;
+    left: 12%;
+    top: 15%;
+    right: 12%;
+    font-size: 24px;
+}
+.div__textballoon__kleine{
+    position: absolute;
+    left: 12%;
+    top: 15%;
+    right: 12%;
+    font-size: 36px;
+}
+
+.btn__random {
+	position: absolute;
+	left: 40%;
+	top: 50%;
+
+	font-family: "Shadows Into Light", sans-serif;
+	font-size: 24px;
+	color: #fff;
+	
+	text-decoration: none;
+	padding: 3px 35px;
+	border: solid black 1px;
+	border-radius: 5px;
+	background-color: #ad5330;
+}
+
+.btn__previous {
+     position: absolute;
+     left: 12%;
+     top: 46%;
+
+     font-size: 50px;
+     color: #000;
+
+     text-decoration: none;
+     padding: 5px 10px;
+     /*border: solid black 1px;
+     border-radius: 5px;
+     background-color: #ad5330;*/
+ }
+
+.btn__next {
+    position: absolute;
+    left: 20%;
+    top: 46%;
+
+    font-size: 50px;
+    color: #000;
+
+    text-decoration: none;
+    padding: 5px 10px;
+    /*border: solid black 1px;
+    border-radius: 5px;
+    background-color: #ad5330;*/
+}
+
+.rct__footer {
+	background-color: #ad5330;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 99%;
+	height: 60px;
+}
+
+.nav__footer__list {
+	position: absolute;
+	bottom: 0;
+	right: 8%;
+    z-index: 9999;
+}
+
+.nav__footer__item {
+	display: inline-block;
+}
+
+.nav__footer__link {
+	font-family: Actor, sans-serif;
+	font-size: 28px;
+
+	text-decoration: none;
+	color: #fff;
+	line-height: 1.8rem;
+	vertical-align: middle;
+	padding: 0 30px;
+}
+
+/* Category Span*/
+
+span {
+    position: absolute;
+    left: 82%;
+    top: 50%;
+    /*margin-left: 5%;*/
+    font-size: 30px;
+    padding: 7px 14px;
+    font-weight: bold;
+
+    /*background-color: #ad5330;*/
+    color: #000;
+    text-align: center;
+
+    /*border: 1px solid black;
+    border-radius: 5px;*/
+}
+
+span:before {
+    content: '';
+    position: absolute;
+    bottom: 46px;
+    left: 11px;
+
+    display: block;
+    border: 8px solid;
+    border-color: transparent grey grey transparent;
+    transform: rotate(-315deg);
+    visibility: hidden;
+}
+
+span:after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 48px;
+
+    width: 100px;
+    padding: 5px;
+    margin-left: -95px;
+
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+
+    border-radius: 3px;
+    background-color: grey;
+    visibility: hidden;
+}
+
+span:hover {
+    cursor: help;
+}
+
+span:hover:after, span:hover:before {
+    visibility: visible;
+    z-index: 9999;
+}
+
+/* Tablet Mode */
+@media screen and (max-width: 1024px) {
+    .rct__footer {
+        padding: 0 10px 0 10px;
+        z-index: 9998;
+    }
+
+    .img__chucknorris__pic {
+        width: 70%;
+        padding: 0 0 25px 0;
+        height: auto;
+    }
+
+    .div__textballoon{
+        position: absolute;
+        left: 50%;
+        top: 15%;
+    }
+
+    .img__textballoon__pic {
+        width: 90%;
+        height: 90%;
+    }
+
+    .nav__footer{
+        text-align: center;
+    }
+
+    .nav__footer__list {
+        position: relative;
+        margin-bottom: 0%;
+        right: auto;
+        z-index: 9999;
+    }
+
+    .nav__footer__item {
+        padding: 0 50px;
+    }
+
+    .div__textballoon__kleine {
+        font-size: 26px;
+    }
+
+    .btn__random {
+        position: absolute;
+        left: 35%;
+        top: 48%;
+
+        font-family: "Shadows Into Light", sans-serif;
+        font-size: 22px;
+        color: #fff;
+
+        text-decoration: none;
+        padding: 1px 25px;
+        border: solid black 1px;
+        border-radius: 4px;
+        background-color: #ad5330;
+    }
+
+    .div__textballoon__superduperdupergrote{
+        position: absolute;
+        left: 12%;
+        top: 15%;
+        right: 20%;
+        font-size: 12px;
+    }
+
+    .div__textballoon__superdupergrote{
+        position: absolute;
+        left: 12%;
+        top: 15%;
+        right: 20%;
+        font-size: 13px;
+    }
+    .div__textballoon__supergrote{
+        position: absolute;
+        left: 12%;
+        top: 15%;
+        right: 20%;
+        font-size: 14px;
+    }
+    .div__textballoon__grote{
+        position: absolute;
+        left: 12%;
+        top: 15%;
+        right: 20%;
+        font-size: 18px;
+    }
+
+
+    .btn__previous {
+        position: absolute;
+        left: 12%;
+        top: 46%;
+
+        font-size: 30px;
+        color: #000;
+
+        text-decoration: none;
+        padding: 5px 7px;
+        /*border: solid black 1px;
+        border-radius: 5px;
+        background-color: #ad5330;*/
+    }
+
+    .btn__next {
+        position: absolute;
+        left: 20%;
+        top: 46%;
+
+        font-size: 30px;
+        color: #000;
+
+        text-decoration: none;
+        padding: 5px 7px;
+        /*border: solid black 1px;
+        border-radius: 5px;
+        background-color: #ad5330;*/
+    }
+
+    span {
+        position: absolute;
+        left: 72%;
+        top: 48%;
+
+        font-size: 22px;
+        padding: 7px 14px;
+        font-weight: bold;
+
+        color: #000;
+        text-align: center;
+
+    }
+
+    .input__contact {
+        width: 320px;
+        text-decoration: none;
+        border: 1px solid #a0a0a0;
+        border-radius: 2px;
+        padding: 4px;
+    }
+
+    .txt__contact {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .nav__footer__list {
+        right: 0;
+        padding: 0;
+        margin: 13px 0 0 0 ;
+        display: inline-block;
+    }
+
+    .nav__footer__item {
+        text-decoration: none;
+        color: #fff;
+        line-height: 1.8rem;
+        vertical-align: middle;
+        padding: 0;
+    }
+
+    .nav__footer__link {
+        padding: 0 15px;
+        font-size: 22px;
+    }
+
+    .img__chucknorris__pic {
+        max-width: 480px;
+        width: 110%;
+        height: auto;
+    }
+
+    .div__textballoon {
+        max-width: 480px;
+        width: 100%;
+        height: auto;
+
+        position: absolute;
+        left: 5%;
+        top: 10%;
+    }
+
+    .div__textballoon__kleine {
+        font-size: 22px;
+    }
+
+    .btn__random {
+        position: absolute;
+        left: 32%;
+        top: 45%;
+
+        font-family: "Shadows Into Light", sans-serif;
+        font-size: 22px;
+        color: #fff;
+
+        text-decoration: none;
+        padding: 1px 25px;
+        border: solid black 1px;
+        border-radius: 4px;
+        background-color: #ad5330;
+    }
+
+    .div__textballoon__superduperdupergrote{
+        position: absolute;
+        left: 12%;
+        top: 15%;
+        right: 20%;
+        font-size: 10px;
+    }
+
+    .div__textballoon__superdupergrote{
+        position: absolute;
+        left: 12%;
+        top: 15%;
+        right: 20%;
+        font-size: 12px;
+    }
+    .div__textballoon__supergrote{
+        position: absolute;
+        left: 12%;
+        top: 15%;
+        right: 20%;
+        font-size: 13px;
+    }
+    .div__textballoon__grote{
+        position: absolute;
+        left: 12%;
+        top: 15%;
+        right: 20%;
+        font-size: 16px;
+    }
+
+    .img__textballoon__picLarge{
+        width: 90%;
+        height: auto;
+        left : 10%;
+        margin: 0 auto;
+    }
+
+    .form__textballoon__contact {
+        position: absolute;
+        left: 5%;
+        top: 2%;
+    }
+
+    .h1__textballoon {
+        position: absolute;
+        left: 20%;
+        top: 3%;
+        right: 12%;
+        font-size: 26px;
+        font-weight: normal;
+    }
+
+    .txt__contact {
+        font-size: 16px;
+        margin: 5px 0;
+
+    }
+
+    .input__contact {
+        width: 220px;
+        text-decoration: none;
+        border: 1px solid #a0a0a0;
+        border-radius: 2px;
+        padding: 4px;
+    }
+
+    .item__contact__name {
+        position: absolute;
+        display: inline-block;
+        left: 20%;
+        top: 18%;
+    }
+
+    .item__contact__email {
+        position: absolute;
+        display: inline-block;
+        left: 20%;
+        top: 35%;
+    }
+
+    .item__contact__message {
+        position: absolute;
+        display: inline-block;
+        left: 20%;
+        top: 52%;
+    }
+
+    .btn__submit {
+        position: absolute;
+        left: 20%;
+        top: 85%;
+
+        font-family: "Shadows Into Light", sans-serif;
+        font-size: 16px;
+        color: #fff;
+
+        text-decoration: none;
+        padding: 2px 35px;
+        border: solid black 1px;
+        border-radius: 5px;
+        background-color: #ad5330;
+    }
+
+    textarea {
+        height: 4em;
+    }
+
+    .div__textballoon__about{
+        position: absolute;
+        left: 5%;
+        top: 2%;
+    }
+
+    .txt__about {
+        font-size: 14px;
+        margin: 5px 0;
+        left: 20%;
+        right: 20%;
+    }
+
+    .img__logo {
+        width: 30%;
+        height: auto;
+        top: 73%;
+        left: 20%;
+    }
+}
